@@ -116,7 +116,7 @@
 
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
-    color: var(--bs-secondary) !important;
+    color: var(--bs-white) !important;
 }
 
 .navbar .dropdown-toggle::after {
@@ -191,7 +191,7 @@
 }
 
 .carousel-control-prev:hover {
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     transition: .8s;
 }
 
@@ -207,13 +207,13 @@
 }
 
 .carousel-control-next:hover {
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     transition: .8s;
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn1 {
-    background: var(--bs-secondary);
-    color: var(--bs-dark);
+    background: var(--bs-primary);
+    color: var(--bs-white);
     opacity: 1;
     border: 0;
     border-radius: 20px;
@@ -237,8 +237,8 @@
 }
 
 .carousel-caption .carousel-content a button.carousel-content-btn2:hover {
-    background: var(--bs-secondary);
-    color: var(--bs-dark);
+    background: var(--bs-primary);
+    color: var(--bs-white);
     border: 0;
     opacity: 1;
     transition: 1s;
@@ -255,7 +255,7 @@
 }
 
 #carouselId .carousel-indicators li:hover {
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     opacity: 1;
 }
 
@@ -335,7 +335,7 @@
     top: 0;
     left: 0;
     border-radius: 10px 10px 0 0;
-    background: rgba(3, 43, 243, 0.8);
+    background: rgba(255, 255, 255, 0.8);
     transition: .5s;
 }
 
@@ -362,11 +362,11 @@
 }
 
 .services-item:hover .services-content-icon i {
-    color: var(--bs-secondary) !important;
+    color: var(--bs-primary) !important;
 }
 
 .services-item:hover .services-content-icon p {
-    color: var(--bs-white);
+    color: var(--bs-black);
 }
 
 /*** Services End ***/
@@ -386,7 +386,7 @@
     height: 150px;
     top: 0;
     left: 0;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     border-radius: 10px;
     opacity: 1;
     z-index: -1;
@@ -480,7 +480,7 @@
 /*** Team Start ***/
 
 .team-item {
-    border-top: 30px solid var(--bs-secondary) !important;
+    border-top: 30px solid var(--bs-primary) !important;
     background: rgba(239, 239, 241, 0.8);
 }
 
@@ -490,7 +490,7 @@
     content: "";
     position: relative;
     top: -101px;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     clip-path: polygon(50% 50%, 100% 50%, 50% 100%, 0% 50%);
     padding: 60px;
     opacity: 1;
@@ -508,7 +508,7 @@
 }
 
 .team-img img {
-    border: 10px solid var(--bs-secondary);
+    border: 10px solid var(--bs-primary);
     transition: .5s;
 }
 
@@ -519,7 +519,7 @@
 
 .team-item:hover .team-img img {
     transform: scale(1.05);
-    border: 10px solid var(--bs-secondary);
+    border: 10px solid var(--bs-primary);
 }
 
 .team-carousel .owl-stage {
@@ -541,7 +541,7 @@
     height: 56px;
     border-radius: 56px;
     margin-left: 15px;
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     color: var(--bs-white);
     display: flex;
     align-items: center;
@@ -634,11 +634,11 @@
 }
 
 .contact-map {
-    background: #26d48c;
+    background: #6180d4;
 }
 
 .contact-form {
-    background: #26d48c;
+    background: #6180d4;
 }
 
 /*** Contact End ***/
@@ -659,7 +659,7 @@
 }
 
 .footer .hightech-link a:hover {
-    background: var(--bs-secondary);
+    background: var(--bs-primary);
     border: 0;
 }
 
